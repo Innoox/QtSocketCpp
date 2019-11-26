@@ -1,2 +1,3 @@
-# QtSocketCpp
- Network_Programming_Qt_Network_Cpp_Classes
+# Network Programming with Qt & Cpp
+Tutorial for the school project.
+The main task to make IPv6 Scanner
