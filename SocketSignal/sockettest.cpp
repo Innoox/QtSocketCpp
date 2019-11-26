@@ -16,6 +16,7 @@ void SocketTest::Test()
     qDebug() << "Connecting...";
 
     socket->connectToHost("google.com", 80);
+//    socket->connectToHost("localhost", 80);
 
     if(!socket->waitForDisconnected(1000))
     {
