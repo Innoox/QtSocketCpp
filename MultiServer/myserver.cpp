@@ -9,7 +9,7 @@ MyServer::MyServer(QObject *parent) :
 
 void MyServer::StartServer()
 {
-    if(!this->listen(QHostAddress::Any,1234))
+    if(!this->listen(QHostAddress::Any,80))
     {
         qDebug() << "Could not start server";
     }
